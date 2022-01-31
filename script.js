@@ -1193,7 +1193,7 @@ const personagens = [
  },
  {
    "nome": "Harma (Cabeça de cão)",
-   "imagem": "imagens/personagens/Harma (Cabeça de cao).png",
+   "imagem": "imagens/personagens/Harma (Cabeca de cao).png",
    "familia": "",
    "grupo": "Selvagens",
    "titulo": "",
@@ -1585,7 +1585,7 @@ const personagens = [
  },
  {
    "nome": "Karl Pé-Torto",
-   "imagem": "imagens/personagens/Karl Pé-Torto.png",
+   "imagem": "imagens/personagens/Karl Pe-Torto.png",
    "familia": "",
    "grupo": "Patrulha da Noite",
    "titulo": "Patrulheiro",
@@ -3145,7 +3145,7 @@ const personagens = [
  },
  {
    "nome": "Walton (Perna de aço)",
-   "imagem": "imagens/personagens/Walton (Perna de aço).png",
+   "imagem": "imagens/personagens/Walton (Perna de aco).png",
    "familia": "",
    "grupo": "",
    "titulo": "",
