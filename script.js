@@ -5,7 +5,7 @@ const personagens = [
    "familia": "",
    "grupo": "Bobo",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Adaga",
@@ -13,23 +13,15 @@ const personagens = [
    "familia": "",
    "grupo": "Patrulha da Noite",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Addan Marbrand",
    "imagem": "imagens/personagens/Addan Marbrand.png",
    "familia": "Marbrand",
-   "grupo": "",
+   "grupo": "Patrulha da cidade de Porto Real",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Adrian Celtigar",
-   "imagem": "imagens/personagens/Adrian Celtigar.png",
-   "familia": "Celtigar",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Aegon (Griff)",
@@ -37,15 +29,15 @@ const personagens = [
    "familia": "Targaryen",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Aemon",
    "imagem": "imagens/personagens/Aemon.png",
    "familia": "Targaryen",
-   "grupo": "Meistre",
+   "grupo": "Patrulha da Noite",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Aenys Frey",
@@ -53,7 +45,7 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Aeron Greyjoy",
@@ -61,15 +53,15 @@ const personagens = [
    "familia": "Greyjoy",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Aerys II",
    "imagem": "imagens/personagens/Aerys II.png",
    "familia": "Targaryen",
    "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "titulo": "Rei",
+   "vivo": false
  },
  {
    "nome": "Aethan",
@@ -77,7 +69,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Aggo",
@@ -85,7 +77,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Alayaya",
@@ -93,15 +85,15 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
-   "nome": "Albert",
-   "imagem": "imagens/personagens/Albert.png",
+   "nome": "Albett",
+   "imagem": "imagens/personagens/Albett.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Construtor",
+   "vivo": true
  },
  {
    "nome": "Alerie Tyrell",
@@ -109,7 +101,7 @@ const personagens = [
    "familia": "Tyrell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Alester Florent",
@@ -117,15 +109,15 @@ const personagens = [
    "familia": "Florent",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Alfyn (Mata corvos)",
    "imagem": "imagens/personagens/Alfyn (Mata corvos).png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Alla Tyrell",
@@ -133,7 +125,7 @@ const personagens = [
    "familia": "Tyrell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Allard Seaworth",
@@ -141,31 +133,31 @@ const personagens = [
    "familia": "Seaworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Alliser Thorne",
    "imagem": "imagens/personagens/Alliser Thorne.png",
    "familia": "Thorne",
    "grupo": "Patrulha da Noite",
-   "titulo": "",
-   "vivo": ""
+   "titulo": "Mestre das Armas",
+   "vivo": true
  },
  {
    "nome": "Alto Septão",
-   "imagem": "imagens/personagens/Alto Septão.png",
+   "imagem": "imagens/personagens/Alto Septao.png",
    "familia": "",
    "grupo": "Septão",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Alto Septão Gordo",
-   "imagem": "imagens/personagens/Alto Septão Gordo.png",
+   "imagem": "imagens/personagens/Alto Septao Gordo.png",
    "familia": "",
    "grupo": "Septão",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Alyce Graceford",
@@ -173,7 +165,7 @@ const personagens = [
    "familia": "Graceford",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Alyn",
@@ -181,7 +173,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Amory Lorch",
@@ -189,23 +181,23 @@ const personagens = [
    "familia": "Lorch",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Anguy",
    "imagem": "imagens/personagens/Anguy.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Irmandade sem bandeiras",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
-   "nome": "Arell Florent",
-   "imagem": "imagens/personagens/Arell Florent.png",
-   "familia": "Florent",
+   "nome": "Ardrian Celtigar",
+   "imagem": "imagens/personagens/Ardrian Celtigar.png",
+   "familia": "Celtigar",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ariane Martell",
@@ -213,7 +205,7 @@ const personagens = [
    "familia": "Martell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Aron Santagar",
@@ -221,15 +213,15 @@ const personagens = [
    "familia": "Santagar",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Arron",
    "imagem": "imagens/personagens/Arron.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Recruta",
+   "vivo": true
  },
  {
    "nome": "Arryk",
@@ -237,23 +229,23 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Arstan",
    "imagem": "imagens/personagens/Arstan.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Arthur Dayne",
    "imagem": "imagens/personagens/Arthur Dayne.png",
    "familia": "Dayne",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Arya Stark",
@@ -261,15 +253,15 @@ const personagens = [
    "familia": "Stark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Arys Oakheart",
    "imagem": "imagens/personagens/Arys Oakheart.png",
    "familia": "Oakheart",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Asha Greyjoy",
@@ -277,7 +269,7 @@ const personagens = [
    "familia": "Greyjoy",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ashara Dayne",
@@ -285,7 +277,15 @@ const personagens = [
    "familia": "Dayne",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
+ },
+ {
+   "nome": "Axell Florent",
+   "imagem": "imagens/personagens/Axell Florent.png",
+   "familia": "Florent",
+   "grupo": "",
+   "titulo": "",
+   "vivo": true
  },
  {
    "nome": "Balon Greyjoy",
@@ -293,39 +293,39 @@ const personagens = [
    "familia": "Greyjoy",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Balon Swann",
    "imagem": "imagens/personagens/Balon Swann.png",
    "familia": "Swann",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Bannen",
    "imagem": "imagens/personagens/Bannen.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
-   "nome": "Barristan",
+   "nome": "Barristan Selmy",
    "imagem": "imagens/personagens/Barristan.png",
-   "familia": "",
-   "grupo": "",
+   "familia": "Selmy",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Bedwyck (Gigante)",
    "imagem": "imagens/personagens/Bedwyck (Gigante).png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Patrulha da Noite",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Belwas",
@@ -333,15 +333,23 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
+ },
+ {
+   "nome": "Benjen Stark",
+   "imagem": "imagens/personagens/Benjen.png",
+   "familia": "Stark",
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Beric Dondarrion",
    "imagem": "imagens/personagens/Beric Dondarrion.png",
    "familia": "Dondarrion",
-   "grupo": "",
+   "grupo": "Irmandade sem bandeiras",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Beth Cassel",
@@ -349,39 +357,39 @@ const personagens = [
    "familia": "Cassel",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Blane",
    "imagem": "imagens/personagens/Blane.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Comandante",
+   "vivo": true
  },
  {
    "nome": "Boca de Merda",
    "imagem": "imagens/personagens/Boca de Merda.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Homens da montanha",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Boros Blount",
    "imagem": "imagens/personagens/Boros Blount.png",
    "familia": "Blount",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Bowen Marsh",
    "imagem": "imagens/personagens/Bowen Marsh.png",
    "familia": "Marsh",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Intendente",
+   "vivo": true
  },
  {
    "nome": "Bran Stark",
@@ -389,7 +397,7 @@ const personagens = [
    "familia": "Stark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Brandon Stark",
@@ -397,15 +405,15 @@ const personagens = [
    "familia": "Stark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Brienne",
    "imagem": "imagens/personagens/Brienne.png",
-   "familia": "",
+   "familia": "Tarth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Bronn",
@@ -413,7 +421,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Bronze Yohn Royce",
@@ -421,7 +429,7 @@ const personagens = [
    "familia": "Royce",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Bryce Caron",
@@ -429,7 +437,7 @@ const personagens = [
    "familia": "Caron",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Brynden Tully",
@@ -437,23 +445,23 @@ const personagens = [
    "familia": "Tully",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Camisa de Chocalho",
    "imagem": "imagens/personagens/Camisa de Chocalho.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Cão Felpudo",
-   "imagem": "imagens/personagens/Cão Felpudo.png",
+   "imagem": "imagens/personagens/Cao Felpudo.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Lobos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Cara-Malhada",
@@ -461,7 +469,7 @@ const personagens = [
    "familia": "",
    "grupo": "Bobo",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Catelyn",
@@ -469,7 +477,7 @@ const personagens = [
    "familia": "Stark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Cellador",
@@ -477,23 +485,23 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Cersei Lannister",
    "imagem": "imagens/personagens/Cersei Lannister.png",
    "familia": "Lannister",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Conselho",
+   "titulo": "Rainha",
+   "vivo": true
  },
  {
    "nome": "Cetim",
    "imagem": "imagens/personagens/Cetim.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Recruta",
+   "vivo": true
  },
  {
    "nome": "Chataya",
@@ -501,39 +509,39 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Chella",
    "imagem": "imagens/personagens/Chella.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Orelhas Negras",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Chett",
    "imagem": "imagens/personagens/Chett.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Intendente",
+   "vivo": false
  },
  {
    "nome": "Chiswyck",
    "imagem": "imagens/personagens/Chiswyck.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Homens da montanha",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Chorão",
-   "imagem": "imagens/personagens/Chorão.png",
+   "imagem": "imagens/personagens/Chorao.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Cleos Frey",
@@ -541,7 +549,7 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Cley Cerwyn",
@@ -549,7 +557,7 @@ const personagens = [
    "familia": "Cerwyn",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Clydas",
@@ -557,23 +565,23 @@ const personagens = [
    "familia": "",
    "grupo": "Meistre",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Cobra de Pedra",
    "imagem": "imagens/personagens/Cobra de Pedra.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Cócegas",
-   "imagem": "imagens/personagens/Cócegas.png",
+   "imagem": "imagens/personagens/Cocegas.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Homens da montanha",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Cohollo",
@@ -581,7 +589,7 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Colemon",
@@ -589,15 +597,15 @@ const personagens = [
    "familia": "",
    "grupo": "Meistre",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Conwy",
    "imagem": "imagens/personagens/Conwy.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Recruta",
+   "vivo": true
  },
  {
    "nome": "Cortnay Penrose",
@@ -605,39 +613,39 @@ const personagens = [
    "familia": "Penrose",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Cotter Pyke",
    "imagem": "imagens/personagens/Cotter Pyke.png",
    "familia": "Pyke",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Comandante",
+   "vivo": true
  },
  {
    "nome": "Craster",
    "imagem": "imagens/personagens/Craster.png",
    "familia": "",
-   "grupo": "Selvagem",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Cressen",
    "imagem": "imagens/personagens/Cressen.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Meistre",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
-   "nome": "Cronn",
-   "imagem": "imagens/personagens/Cronn.png",
+   "nome": "Cromm",
+   "imagem": "imagens/personagens/Cromm.png",
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Dacey Mormont",
@@ -645,7 +653,7 @@ const personagens = [
    "familia": "Mormont",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Daenerys",
@@ -653,7 +661,7 @@ const personagens = [
    "familia": "Targaryen",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Dagmer (Boca Rachada)",
@@ -661,15 +669,15 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Dalbridge",
    "imagem": "imagens/personagens/Dalbridge.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Dale Seaworth",
@@ -677,55 +685,47 @@ const personagens = [
    "familia": "Seaworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Dalla",
    "imagem": "imagens/personagens/Dalla.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Danys Mallister",
-   "imagem": "imagens/personagens/Danys Mallister.png",
-   "familia": "Mallister",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Dareon",
    "imagem": "imagens/personagens/Dareon.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Intendente",
+   "vivo": true
  },
  {
    "nome": "Davos",
    "imagem": "imagens/personagens/Davos.png",
-   "familia": "",
+   "familia": "Seaworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Dentadas",
    "imagem": "imagens/personagens/Dentadas.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
-   "nome": "Desmond Grell",
-   "imagem": "imagens/personagens/Desmond Grell.png",
-   "familia": "Grell",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "nome": "Denys Mallister",
+   "imagem": "imagens/personagens/Denys Mallister.png",
+   "familia": "Mallister",
+   "grupo": "Patrulha da Noite",
+   "titulo": "Comandante",
+   "vivo": true
  },
  {
    "nome": "Desmond",
@@ -733,7 +733,15 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
+ },
+ {
+   "nome": "Desmond Grell",
+   "imagem": "imagens/personagens/Desmond Grell.png",
+   "familia": "Grell",
+   "grupo": "",
+   "titulo": "",
+   "vivo": true
  },
  {
    "nome": "Devan Seaworth",
@@ -741,15 +749,15 @@ const personagens = [
    "familia": "Seaworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Donal Noye",
    "imagem": "imagens/personagens/Donal Noye.png",
-   "familia": "Noye",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "familia": "",
+   "grupo": "Patrulha da Noite",
+   "titulo": "Intendente",
+   "vivo": false
  },
  {
    "nome": "Donella Hornwood",
@@ -757,15 +765,15 @@ const personagens = [
    "familia": "Hornwood",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Donnel Hill",
    "imagem": "imagens/personagens/Donnel Hill.png",
    "familia": "Hill",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Intendente",
+   "vivo": true
  },
  {
    "nome": "Dontos",
@@ -773,7 +781,7 @@ const personagens = [
    "familia": "",
    "grupo": "Bobo",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Doran Martell",
@@ -781,7 +789,7 @@ const personagens = [
    "familia": "Martell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Doreah",
@@ -789,15 +797,15 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Dormund",
    "imagem": "imagens/personagens/Dormund.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Drogo",
@@ -805,23 +813,23 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "Khal",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Dryn",
    "imagem": "imagens/personagens/Dryn.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Dunsen",
    "imagem": "imagens/personagens/Dunsen.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Homens da montanha",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Duram Bar Emmon",
@@ -829,31 +837,31 @@ const personagens = [
    "familia": "Bar Emmon",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Dywen",
    "imagem": "imagens/personagens/Dywen.png",
    "familia": "",
    "grupo": "Patrulha da Noite",
-   "titulo": "",
-   "vivo": ""
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Ebben",
    "imagem": "imagens/personagens/Ebben.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Edd Doloroso",
    "imagem": "imagens/personagens/Edd Doloroso.png",
    "familia": "",
    "grupo": "Patrulha da Noite",
-   "titulo": "",
-   "vivo": ""
+   "titulo": "Intendente",
+   "vivo": true
  },
  {
    "nome": "Eddard Karstark",
@@ -861,15 +869,15 @@ const personagens = [
    "familia": "Karstark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Eddard Stark",
    "imagem": "imagens/personagens/Eddard Stark.png",
    "familia": "Stark",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Conselho",
+   "titulo": "Mão",
+   "vivo": false
  },
  {
    "nome": "Edmure",
@@ -877,15 +885,15 @@ const personagens = [
    "familia": "Tully",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Edric Storm",
    "imagem": "imagens/personagens/Edric Storm.png",
-   "familia": "Storm",
+   "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Elenya Westerling",
@@ -893,15 +901,15 @@ const personagens = [
    "familia": "Westerling",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Elia Martell",
    "imagem": "imagens/personagens/Elia Martell.png",
    "familia": "Martell",
    "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "titulo": "Rainha",
+   "vivo": false
  },
  {
    "nome": "Elinor Tyrell",
@@ -909,7 +917,7 @@ const personagens = [
    "familia": "Tyrell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Elmar Frey",
@@ -917,7 +925,7 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Emmon Frey",
@@ -925,23 +933,23 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Emrick",
    "imagem": "imagens/personagens/Emrick.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Recruta",
+   "vivo": true
  },
  {
    "nome": "Endrew Tarth",
    "imagem": "imagens/personagens/Endrew Tarth.png",
    "familia": "Tarth",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Intendente",
+   "vivo": true
  },
  {
    "nome": "Eroeh",
@@ -949,7 +957,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Erryk",
@@ -957,7 +965,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ethan Glover",
@@ -965,7 +973,7 @@ const personagens = [
    "familia": "Glover",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Euron Greyjoy",
@@ -973,23 +981,23 @@ const personagens = [
    "familia": "Greyjoy",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Falyse",
    "imagem": "imagens/personagens/Falyse.png",
-   "familia": "",
+   "familia": "Stokeworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Fantasma",
    "imagem": "imagens/personagens/Fantasma.png",
    "familia": "",
-   "grupo": "Lobo",
+   "grupo": "Lobos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Farlen",
@@ -997,7 +1005,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Fogo",
@@ -1005,7 +1013,7 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Gaewn Westerling",
@@ -1013,7 +1021,7 @@ const personagens = [
    "familia": "Westerling",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Galbart Glover",
@@ -1021,15 +1029,15 @@ const personagens = [
    "familia": "Glover",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Gared",
    "imagem": "imagens/personagens/Gared.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Garlan Tyrell",
@@ -1037,7 +1045,7 @@ const personagens = [
    "familia": "Tyrell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Gendry",
@@ -1045,7 +1053,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Genna Lannister",
@@ -1053,31 +1061,31 @@ const personagens = [
    "familia": "Lannister",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Gerald Hightower",
    "imagem": "imagens/personagens/Gerald Hightower.png",
    "familia": "Hightower",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
+ },
+ {
+   "nome": "Goady",
+   "imagem": "imagens/personagens/Goady.png",
+   "familia": "",
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Goiva",
    "imagem": "imagens/personagens/Goiva.png",
    "familia": "",
-   "grupo": "Selvagem",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Goody",
-   "imagem": "imagens/personagens/Goody.png",
-   "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Grande Jon Umber",
@@ -1085,7 +1093,7 @@ const personagens = [
    "familia": "Umber",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Grande Walder",
@@ -1093,23 +1101,23 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Gregor Clegane",
    "imagem": "imagens/personagens/Gregor Clegane.png",
    "familia": "Clegane",
-   "grupo": "",
+   "grupo": "Homens da montanha",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Grenn",
    "imagem": "imagens/personagens/Grenn.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Groleo",
@@ -1117,15 +1125,15 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Grubbs",
    "imagem": "imagens/personagens/Grubbs.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Guncer Sunglass",
@@ -1133,7 +1141,7 @@ const personagens = [
    "familia": "Sunglass",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Gyles Rosby",
@@ -1141,7 +1149,7 @@ const personagens = [
    "familia": "Rosby",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Haggo",
@@ -1149,23 +1157,23 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Hake",
    "imagem": "imagens/personagens/Hake.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Intendente",
+   "vivo": false
  },
  {
    "nome": "Halder",
    "imagem": "imagens/personagens/Halder.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Hallis Moller",
@@ -1173,23 +1181,23 @@ const personagens = [
    "familia": "Moller",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Hallyne",
    "imagem": "imagens/personagens/Hallyne.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Guilda dos Alquimistas",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Harma (Cabeça de cão)",
-   "imagem": "imagens/personagens/Harma (Cabeça de cão).png",
+   "imagem": "imagens/personagens/Harma (Cabeça de cao).png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Harrion Karstark",
@@ -1197,7 +1205,7 @@ const personagens = [
    "familia": "Karstark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Harwin",
@@ -1205,7 +1213,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Harys Haigh",
@@ -1213,7 +1221,7 @@ const personagens = [
    "familia": "Haigh",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Harys Swyft",
@@ -1221,15 +1229,15 @@ const personagens = [
    "familia": "Swyft",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Hobb (Três dedos)",
-   "imagem": "imagens/personagens/Hobb (Três dedos).png",
+   "imagem": "imagens/personagens/Hobb (Tres dedos).png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Intendente",
+   "vivo": true
  },
  {
    "nome": "Hobber Redwyne",
@@ -1237,7 +1245,7 @@ const personagens = [
    "familia": "Redwyne",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Hodor",
@@ -1245,7 +1253,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Horas Redwyne",
@@ -1253,7 +1261,7 @@ const personagens = [
    "familia": "Redwyne",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Hosteen Frey",
@@ -1261,7 +1269,7 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Hoster Tully",
@@ -1269,7 +1277,7 @@ const personagens = [
    "familia": "Tully",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Hother Umber",
@@ -1277,7 +1285,7 @@ const personagens = [
    "familia": "Umber",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Howland Reed",
@@ -1285,7 +1293,7 @@ const personagens = [
    "familia": "Reed",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Hugh",
@@ -1293,7 +1301,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Hullen",
@@ -1301,23 +1309,23 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Iggo",
    "imagem": "imagens/personagens/Iggo.png",
    "familia": "",
-   "grupo": "Dothraki",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Illyrio Mopatis",
    "imagem": "imagens/personagens/Illyrio Mopatis.png",
-   "familia": "Mopatis",
+   "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ilyn Payne",
@@ -1325,7 +1333,7 @@ const personagens = [
    "familia": "Payne",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Irri",
@@ -1333,23 +1341,23 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jacelyn Bywater",
    "imagem": "imagens/personagens/Jacelyn Bywater.png",
    "familia": "Bywater",
-   "grupo": "",
+   "grupo": "Patrulha da cidade de Porto Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Jafer Flowers",
    "imagem": "imagens/personagens/Jafer Flowers.png",
    "familia": "Flowers",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Jaime Lannister",
@@ -1357,7 +1365,7 @@ const personagens = [
    "familia": "Lannister",
    "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jalabhar Xho",
@@ -1365,7 +1373,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jammos Frey",
@@ -1373,31 +1381,23 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Janos Bracken",
-   "imagem": "imagens/personagens/Janos Bracken.png",
-   "familia": "Bracken",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Janos Slynt",
    "imagem": "imagens/personagens/Janos Slynt.png",
    "familia": "Slynt",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da cidade de Porto Real",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Jaqen H'ghar",
    "imagem": "imagens/personagens/Jaqen H'ghar.png",
    "familia": "H'ghar",
-   "grupo": "",
+   "grupo": "Homens sem rosto",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jared Frey",
@@ -1405,31 +1405,31 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jaremy Rykker",
    "imagem": "imagens/personagens/Jaremy Rykker.png",
    "familia": "Rykker",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Jarl",
    "imagem": "imagens/personagens/Jarl.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jarmen Buckwell",
    "imagem": "imagens/personagens/Jarmen Buckwell.png",
    "familia": "Buckwell",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Jason Mallister",
@@ -1437,7 +1437,7 @@ const personagens = [
    "familia": "Mallister",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jayne Westerling",
@@ -1445,31 +1445,23 @@ const personagens = [
    "familia": "Westerling",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Jeffrey Lydden",
-   "imagem": "imagens/personagens/Jeffrey Lydden.png",
-   "familia": "Lydden",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jeor Mormont",
    "imagem": "imagens/personagens/Jeor Mormont.png",
    "familia": "Mormont",
    "grupo": "Patrulha da Noite",
-   "titulo": "",
-   "vivo": ""
+   "titulo": "Senhor Comandante",
+   "vivo": false
  },
  {
    "nome": "Jeren",
    "imagem": "imagens/personagens/Jeren.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Recruta",
+   "vivo": true
  },
  {
    "nome": "Jeyne Poole",
@@ -1477,7 +1469,7 @@ const personagens = [
    "familia": "Poole",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jhaqo",
@@ -1485,7 +1477,7 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jhiqui",
@@ -1493,7 +1485,7 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jhogo",
@@ -1501,7 +1493,7 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Joanna Tyrell",
@@ -1509,15 +1501,23 @@ const personagens = [
    "familia": "Tyrell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
-   "nome": "Jofrey Lannister",
-   "imagem": "imagens/personagens/Jofrey Lannister.png",
-   "familia": "Lannister",
+   "nome": "Joffrey Lydden",
+   "imagem": "imagens/personagens/Joffrey Lydden.png",
+   "familia": "Lydden",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
+ },
+ {
+   "nome": "Jofrey Baratheon",
+   "imagem": "imagens/personagens/Jofrey.png",
+   "familia": "Baratheon",
+   "grupo": "Conselho",
+   "titulo": "Rei",
+   "vivo": false
  },
  {
    "nome": "Jojen Reed",
@@ -1525,15 +1525,15 @@ const personagens = [
    "familia": "Reed",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jon Arryn",
    "imagem": "imagens/personagens/Jon Arryn.png",
    "familia": "Arryn",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Conselho",
+   "titulo": "Mão",
+   "vivo": false
  },
  {
    "nome": "Jon Fossoway",
@@ -1541,15 +1541,23 @@ const personagens = [
    "familia": "Fossoway",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jon Snow",
    "imagem": "imagens/personagens/Jon Snow.png",
-   "familia": "Snow",
+   "familia": "Stark",
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
+ },
+ {
+   "nome": "Jonos Bracken",
+   "imagem": "imagens/personagens/Jonos Bracken.png",
+   "familia": "Bracken",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jorah Mormont",
@@ -1557,7 +1565,7 @@ const personagens = [
    "familia": "Mormont",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Jory Cassel",
@@ -1565,7 +1573,7 @@ const personagens = [
    "familia": "Cassel",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Josmyn Peckledon",
@@ -1573,23 +1581,23 @@ const personagens = [
    "familia": "Peckledon",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Karl Pé-Torto",
    "imagem": "imagens/personagens/Karl Pé-Torto.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Kedge Olho Branco",
    "imagem": "imagens/personagens/Kedge Olho Branco.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Kennos de Kayce",
@@ -1597,7 +1605,7 @@ const personagens = [
    "familia": "de Kayce",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Kevan Lannister",
@@ -1605,15 +1613,15 @@ const personagens = [
    "familia": "Lannister",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Lady",
    "imagem": "imagens/personagens/Lady.png",
    "familia": "",
-   "grupo": "Lobo",
+   "grupo": "Lobos",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Lancel Lannister",
@@ -1621,23 +1629,23 @@ const personagens = [
    "familia": "Lannister",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Lark",
    "imagem": "imagens/personagens/Lark.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Lenyl",
    "imagem": "imagens/personagens/Lenyl.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Leo Lefford",
@@ -1645,7 +1653,7 @@ const personagens = [
    "familia": "Lefford",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Leonette Fossoway",
@@ -1653,15 +1661,15 @@ const personagens = [
    "familia": "Fossoway",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Limo",
    "imagem": "imagens/personagens/Limo.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Irmandade sem bandeiras",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Lollys Stakeworth",
@@ -1669,31 +1677,31 @@ const personagens = [
    "familia": "Stakeworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Lommy Mãos-Verdes",
-   "imagem": "imagens/personagens/Lommy Mãos-Verdes.png",
+   "imagem": "imagens/personagens/Lommy Maos-Verdes.png",
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Loras Tyrell",
    "imagem": "imagens/personagens/Loras Tyrell.png",
    "familia": "Tyrell",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Lorren Negro",
    "imagem": "imagens/personagens/Lorren Negro.png",
-   "familia": "Negro",
+   "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Lothar Frey",
@@ -1701,7 +1709,7 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Lothor Brune",
@@ -1709,15 +1717,15 @@ const personagens = [
    "familia": "Brune",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Luwin",
    "imagem": "imagens/personagens/Luwin.png",
    "familia": "",
-   "grupo": "Meitre",
+   "grupo": "Meistre",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Lyanna Stark",
@@ -1725,7 +1733,7 @@ const personagens = [
    "familia": "Stark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Lyle Crakehall",
@@ -1733,15 +1741,15 @@ const personagens = [
    "familia": "Crakehall",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Lysa",
    "imagem": "imagens/personagens/Lysa.png",
-   "familia": "",
+   "familia": "Arryn",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Mace Tyrell",
@@ -1749,7 +1757,7 @@ const personagens = [
    "familia": "Tyrell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Maege Mormont",
@@ -1757,15 +1765,15 @@ const personagens = [
    "familia": "Mormont",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Mag Mar Tun Doh Weg",
    "imagem": "imagens/personagens/Mag Mar Tun Doh Weg.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Gigantes",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Mago",
@@ -1773,39 +1781,47 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Mallador Locke",
    "imagem": "imagens/personagens/Mallador Locke.png",
    "familia": "Locke",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Mance Rayder",
    "imagem": "imagens/personagens/Mance Rayder.png",
    "familia": "Rayder",
-   "grupo": "Selvagem",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Mandon Moore",
    "imagem": "imagens/personagens/Mandon Moore.png",
    "familia": "Moore",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
+/* {
+   "nome": "Maos Frias",
+   "imagem": "imagens/personagens/Maos frias.png",
+   "familia": "",
+   "grupo": "Outros",
+   "titulo": "",
+   "vivo": false
+ }, */
  {
    "nome": "Margaery Tyrell",
    "imagem": "imagens/personagens/Margaery Tyrell.png",
    "familia": "Tyrell",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Conselho",
+   "titulo": "Rainha",
+   "vivo": true
  },
  {
    "nome": "Maric Seaworth",
@@ -1813,7 +1829,7 @@ const personagens = [
    "familia": "Seaworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Marillion",
@@ -1821,7 +1837,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Mark Ryswell",
@@ -1829,7 +1845,7 @@ const personagens = [
    "familia": "Ryswell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Maron Greyjoy",
@@ -1837,7 +1853,7 @@ const personagens = [
    "familia": "Greyjoy",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Marq Piper",
@@ -1845,7 +1861,7 @@ const personagens = [
    "familia": "Piper",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Martyn Cassel",
@@ -1853,7 +1869,7 @@ const personagens = [
    "familia": "Cassel",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Marya Seaworth",
@@ -1861,7 +1877,15 @@ const personagens = [
    "familia": "Seaworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
+ },
+ {
+   "nome": "Maslyn",
+   "imagem": "imagens/personagens/Maslyn.png",
+   "familia": "",
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Mathis Rowan",
@@ -1869,7 +1893,7 @@ const personagens = [
    "familia": "Rowan",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Matthos Seaworth",
@@ -1877,7 +1901,7 @@ const personagens = [
    "familia": "Seaworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Meera Reed",
@@ -1885,7 +1909,7 @@ const personagens = [
    "familia": "Reed",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Megga Tyrell",
@@ -1893,7 +1917,7 @@ const personagens = [
    "familia": "Tyrell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Melisandre",
@@ -1901,7 +1925,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Meredith Crane",
@@ -1909,7 +1933,7 @@ const personagens = [
    "familia": "Crane",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Merrett Frey",
@@ -1917,15 +1941,15 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Meryn Trant",
    "imagem": "imagens/personagens/Meryn Trant.png",
    "familia": "Trant",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Mikken",
@@ -1933,15 +1957,15 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Mirri Maz Duur",
    "imagem": "imagens/personagens/Mirri Maz Duur.png",
-   "familia": "Maz Duur",
+   "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Monford Velaryon",
@@ -1949,15 +1973,15 @@ const personagens = [
    "familia": "Velaryon",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Mordane",
    "imagem": "imagens/personagens/Mordane.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Septão",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Moro",
@@ -1965,7 +1989,7 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Morros Slynt",
@@ -1973,15 +1997,7 @@ const personagens = [
    "familia": "Slynt",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Moslyn",
-   "imagem": "imagens/personagens/Moslyn.png",
-   "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Moss Umber",
@@ -1989,23 +2005,23 @@ const personagens = [
    "familia": "Umber",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Munda",
    "imagem": "imagens/personagens/Munda.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Mya Stone",
    "imagem": "imagens/personagens/Mya Stone.png",
-   "familia": "Stone",
+   "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Mycah",
@@ -2013,31 +2029,31 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
-   "nome": "Myrcella Lannister",
-   "imagem": "imagens/personagens/Myrcella Lannister.png",
-   "familia": "Lannister",
+   "nome": "Myrcella Baratheon",
+   "imagem": "imagens/personagens/Myrcella Baratheon.png",
+   "familia": "Baratheon",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Nymeria",
    "imagem": "imagens/personagens/Nymeria.png",
    "familia": "",
-   "grupo": "Lobo",
+   "grupo": "Lobos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Nysterica",
    "imagem": "imagens/personagens/Nysterica.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Septão",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Oberyn Martell",
@@ -2045,7 +2061,7 @@ const personagens = [
    "familia": "Martell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ogo",
@@ -2053,7 +2069,7 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Olena Tyrell",
@@ -2061,15 +2077,15 @@ const personagens = [
    "familia": "Tyrell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ollo (Mão Cortada)",
-   "imagem": "imagens/personagens/Ollo (Mão Cortada).png",
+   "imagem": "imagens/personagens/Ollo (Mao Cortada).png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Olyvar Frey",
@@ -2077,15 +2093,15 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Orel",
    "imagem": "imagens/personagens/Orel.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Orton Merryweather",
@@ -2093,31 +2109,31 @@ const personagens = [
    "familia": "Merryweather",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Osfrid Kettleblack",
    "imagem": "imagens/personagens/Osfrid Kettleblack.png",
    "familia": "Kettleblack",
-   "grupo": "",
+   "grupo": "Patrulha da cidade de Porto Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Osha",
    "imagem": "imagens/personagens/Osha.png",
    "familia": "",
-   "grupo": "Selvagem",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Osmund Kettleblack",
    "imagem": "imagens/personagens/Osmund Kettleblack.png",
    "familia": "Kettleblack",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Osney Kettleblack",
@@ -2125,31 +2141,31 @@ const personagens = [
    "familia": "Kettleblack",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Oswell Whent",
    "imagem": "imagens/personagens/Oswell Whent.png",
    "familia": "Whent",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Othor",
    "imagem": "imagens/personagens/Othor.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Ottyn Wythers",
    "imagem": "imagens/personagens/Ottyn Wythers.png",
    "familia": "Wythers",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Patrek Mallister",
@@ -2157,15 +2173,15 @@ const personagens = [
    "familia": "Mallister",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Paul Pequeno",
    "imagem": "imagens/personagens/Paul Pequeno.png",
-   "familia": "Pequeno",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "familia": "",
+   "grupo": "Patrulha da Noite",
+   "titulo": "intendente",
+   "vivo": false
  },
  {
    "nome": "Paxter Redwyne",
@@ -2173,15 +2189,15 @@ const personagens = [
    "familia": "Redwyne",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Pé-Leve",
-   "imagem": "imagens/personagens/Pé-Leve.png",
+   "imagem": "imagens/personagens/Pe-Leve.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Pequeno Jon Umber",
@@ -2189,7 +2205,7 @@ const personagens = [
    "familia": "Umber",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Pequeno Walder",
@@ -2197,7 +2213,7 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Perwyn Frey",
@@ -2205,15 +2221,15 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Petyr Baelish",
    "imagem": "imagens/personagens/Petyr Baelish.png",
    "familia": "Baelish",
-   "grupo": "",
+   "grupo": "Conselho",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Philip Foote",
@@ -2221,7 +2237,7 @@ const personagens = [
    "familia": "Foote",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Podrinck Payne",
@@ -2229,31 +2245,31 @@ const personagens = [
    "familia": "Payne",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Polliver",
    "imagem": "imagens/personagens/Polliver.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Homens da montanha",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Pono",
    "imagem": "imagens/personagens/Pono.png",
    "familia": "",
    "grupo": "Dothraki",
-   "titulo": "",
-   "vivo": ""
+   "titulo": "Khal",
+   "vivo": true
  },
  {
    "nome": "Preston Greenfield",
    "imagem": "imagens/personagens/Preston Greenfield.png",
    "familia": "Greenfield",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Pyat Pree",
@@ -2261,55 +2277,55 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Pycelle",
    "imagem": "imagens/personagens/Pycelle.png",
    "familia": "",
-   "grupo": "Meistre",
+   "grupo": "Conselho",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Pyg",
    "imagem": "imagens/personagens/Pyg.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Pylos",
    "imagem": "imagens/personagens/Pylos.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Meistre",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Pyper (Pyp)",
    "imagem": "imagens/personagens/Pyper (Pyp).png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Qhorin Meia-Mão",
-   "imagem": "imagens/personagens/Qhorin Meia-Mão.png",
+   "imagem": "imagens/personagens/Qhorin Meia-Mao.png",
    "familia": "",
    "grupo": "Patrulha da Noite",
-   "titulo": "",
-   "vivo": ""
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Qotho",
    "imagem": "imagens/personagens/Qotho.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Quaithe",
@@ -2317,23 +2333,23 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Quaro",
    "imagem": "imagens/personagens/Quaro.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Quhuru Mo",
    "imagem": "imagens/personagens/Quhuru Mo.png",
-   "familia": "Mo",
+   "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Qyburn",
@@ -2341,39 +2357,31 @@ const personagens = [
    "familia": "",
    "grupo": "Meistre",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Rafford (Raff)",
    "imagem": "imagens/personagens/Rafford (Raff).png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Homens da montanha",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ragwyle",
    "imagem": "imagens/personagens/Ragwyle.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Rakharo",
    "imagem": "imagens/personagens/Rakharo.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Ralph Spicer",
-   "imagem": "imagens/personagens/Ralph Spicer.png",
-   "familia": "Spicer",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ramsay Bolton",
@@ -2381,7 +2389,7 @@ const personagens = [
    "familia": "Bolton",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Randyll Tarly",
@@ -2389,7 +2397,7 @@ const personagens = [
    "familia": "Tarly",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Rapaz Lua",
@@ -2397,15 +2405,15 @@ const personagens = [
    "familia": "",
    "grupo": "Bobo",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Rast",
    "imagem": "imagens/personagens/Rast.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Recruta",
+   "vivo": false
  },
  {
    "nome": "Raynald Westerling",
@@ -2413,15 +2421,15 @@ const personagens = [
    "familia": "Westerling",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Renly Baratheon",
    "imagem": "imagens/personagens/Renly Baratheon.png",
    "familia": "Baratheon",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Conselho",
+   "titulo": "Conselho",
+   "vivo": false
  },
  {
    "nome": "Rhaegar",
@@ -2429,7 +2437,7 @@ const personagens = [
    "familia": "Targaryen",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Rhaego",
@@ -2437,7 +2445,7 @@ const personagens = [
    "familia": "Targaryen",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Rhaella",
@@ -2445,15 +2453,7 @@ const personagens = [
    "familia": "Targaryen",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Rhaenys Targaryen",
-   "imagem": "imagens/personagens/Rhaenys Targaryen.png",
-   "familia": "Targaryen",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Rhaenys",
@@ -2461,7 +2461,15 @@ const personagens = [
    "familia": "Targaryen",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
+ },
+ {
+   "nome": "Rhaenys Targaryen",
+   "imagem": "imagens/personagens/Rhaenys Targaryen.png",
+   "familia": "Targaryen",
+   "grupo": "",
+   "titulo": "",
+   "vivo": false
  },
  {
    "nome": "Rhogoro",
@@ -2469,7 +2477,7 @@ const personagens = [
    "familia": "",
    "grupo": "Dothraki",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Rickard Karstark",
@@ -2477,7 +2485,7 @@ const personagens = [
    "familia": "Karstark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Rickard Stark",
@@ -2485,7 +2493,7 @@ const personagens = [
    "familia": "Stark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Rickon Stark",
@@ -2493,7 +2501,7 @@ const personagens = [
    "familia": "Stark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Robar Royce",
@@ -2501,7 +2509,7 @@ const personagens = [
    "familia": "Royce",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Robb Stark",
@@ -2509,7 +2517,7 @@ const personagens = [
    "familia": "Stark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Robert Arryn",
@@ -2517,15 +2525,15 @@ const personagens = [
    "familia": "Arryn",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Robert Baratheon",
    "imagem": "imagens/personagens/Robert Baratheon.png",
    "familia": "Baratheon",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Conselho",
+   "titulo": "Rei",
+   "vivo": false
  },
  {
    "nome": "Robertt Glover",
@@ -2533,15 +2541,15 @@ const personagens = [
    "familia": "Glover",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
-   "nome": "Robin Rygger",
-   "imagem": "imagens/personagens/Robin Rygger.png",
-   "familia": "Rygger",
+   "nome": "Robin Ryger",
+   "imagem": "imagens/personagens/Robin Ryger.png",
+   "familia": "Ryger",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Rodrik Cassel",
@@ -2549,7 +2557,7 @@ const personagens = [
    "familia": "Cassel",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Rodrik Greyjoy",
@@ -2557,7 +2565,7 @@ const personagens = [
    "familia": "Greyjoy",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Rollan Westerling",
@@ -2565,15 +2573,23 @@ const personagens = [
    "familia": "Westerling",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Rolley",
    "imagem": "imagens/personagens/Rolley.png",
    "familia": "",
+   "grupo": "Patrulha da Noite",
+   "titulo": "Intendente",
+   "vivo": true
+ },
+ {
+   "nome": "Rolph Spicer",
+   "imagem": "imagens/personagens/Rolph Spicer.png",
+   "familia": "Spicer",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Roose Bolton",
@@ -2581,15 +2597,15 @@ const personagens = [
    "familia": "Bolton",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Rorge",
    "imagem": "imagens/personagens/Rorge.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Roslin Frey",
@@ -2597,15 +2613,15 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ryk",
    "imagem": "imagens/personagens/Ryk.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ryman Frey",
@@ -2613,7 +2629,7 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Salladhor Saan",
@@ -2621,31 +2637,31 @@ const personagens = [
    "familia": "Saan",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Salto Pisco",
    "imagem": "imagens/personagens/Salto Pisco.png",
    "familia": "Pisco",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Recruta",
+   "vivo": true
  },
  {
    "nome": "Samwell Tarly",
    "imagem": "imagens/personagens/Samwell Tarly.png",
    "familia": "Tarly",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "intendente",
+   "vivo": true
  },
  {
    "nome": "Sandor Clegane",
    "imagem": "imagens/personagens/Sandor Clegane.png",
    "familia": "Clegane",
-   "grupo": "",
+   "grupo": "Guarda Real",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Sansa Stark",
@@ -2653,31 +2669,31 @@ const personagens = [
    "familia": "Stark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Selyse",
    "imagem": "imagens/personagens/Selyse.png",
-   "familia": "",
+   "familia": "Florent",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Serrett",
    "imagem": "imagens/personagens/Serrett.png",
-   "familia": "",
+   "familia": "Serrett",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Serrote",
    "imagem": "imagens/personagens/Serrote.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "intendente",
+   "vivo": true
  },
  {
    "nome": "Shae",
@@ -2685,31 +2701,31 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Shagga",
    "imagem": "imagens/personagens/Shagga.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Corvos de pedra",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Shagwell",
    "imagem": "imagens/personagens/Shagwell.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Shireen",
    "imagem": "imagens/personagens/Shireen.png",
-   "familia": "",
+   "familia": "Baratheon",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Stanis Baratheon",
@@ -2717,7 +2733,7 @@ const personagens = [
    "familia": "Baratheon",
    "grupo": "Conselho",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Stannis Seaworth",
@@ -2725,7 +2741,15 @@ const personagens = [
    "familia": "Seaworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
+ },
+ {
+   "nome": "Steffon",
+   "imagem": "imagens/personagens/Steffon.png",
+   "familia": "Baratheon",
+   "grupo": "",
+   "titulo": "",
+   "vivo": false
  },
  {
    "nome": "Steffon Seaworth",
@@ -2733,15 +2757,7 @@ const personagens = [
    "familia": "Seaworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Steffon",
-   "imagem": "imagens/personagens/Steffon.png",
-   "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Stevron Frey",
@@ -2749,39 +2765,39 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Styr",
    "imagem": "imagens/personagens/Styr.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
-   "nome": "Sybell",
+   "nome": "Sybell Westerling",
    "imagem": "imagens/personagens/Sybell.png",
-   "familia": "",
+   "familia": "Westerling",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Syrio Forel",
    "imagem": "imagens/personagens/Syrio Forel.png",
-   "familia": "Forel",
+   "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Taena de Myr",
    "imagem": "imagens/personagens/Taena de Myr.png",
-   "familia": "",
+   "familia": "Merryweather",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Tallad",
@@ -2789,15 +2805,15 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Tanda",
    "imagem": "imagens/personagens/Tanda.png",
-   "familia": "",
+   "familia": "Stokeworth",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Theo Wull",
@@ -2805,7 +2821,7 @@ const personagens = [
    "familia": "Wull",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Theon Greyjoy",
@@ -2813,39 +2829,39 @@ const personagens = [
    "familia": "Greyjoy",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Thoren Smallwood",
    "imagem": "imagens/personagens/Thoren Smallwood.png",
    "familia": "Smallwood",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Thoros de Myr",
    "imagem": "imagens/personagens/Thoros de Myr.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Irmandade sem bandeiras",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Timeon",
    "imagem": "imagens/personagens/Timeon.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Timett",
    "imagem": "imagens/personagens/Timett.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Homens Queimados",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Tion Frey",
@@ -2853,39 +2869,39 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Tobho Mott",
    "imagem": "imagens/personagens/Tobho Mott.png",
-   "familia": "Mott",
+   "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Todder (Sapo)",
    "imagem": "imagens/personagens/Todder (Sapo).png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Togg",
    "imagem": "imagens/personagens/Togg.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Tom de Seterrios",
    "imagem": "imagens/personagens/Tom de Seterrios.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Irmandade sem bandeiras",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Tomard",
@@ -2893,31 +2909,31 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
-   "nome": "Tommen Lannister",
-   "imagem": "imagens/personagens/Tommen Lannister.png",
-   "familia": "Lannister",
+   "nome": "Tommen Baratheon",
+   "imagem": "imagens/personagens/Tommen Baratheon.png",
+   "familia": "Baratheon",
    "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "titulo": "Rei",
+   "vivo": true
  },
  {
    "nome": "Toregg",
    "imagem": "imagens/personagens/Toregg.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Tormund",
    "imagem": "imagens/personagens/Tormund.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Torrhen Karstark",
@@ -2925,7 +2941,7 @@ const personagens = [
    "familia": "Karstark",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Torta Quente",
@@ -2933,31 +2949,31 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
-   "nome": "Torwyn",
-   "imagem": "imagens/personagens/Torwyn.png",
+   "nome": "Torwynd",
+   "imagem": "imagens/personagens/Torwynd.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Três Dedos",
-   "imagem": "imagens/personagens/Três Dedos.png",
+   "imagem": "imagens/personagens/Tres Dedos.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Tumberjon",
    "imagem": "imagens/personagens/Tumberjon.png",
    "familia": "",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": true
  },
  {
    "nome": "Tygett Lannister",
@@ -2965,7 +2981,7 @@ const personagens = [
    "familia": "Lannister",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Tyrek Lannister",
@@ -2973,15 +2989,15 @@ const personagens = [
    "familia": "Lannister",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Tyrion Lannister",
    "imagem": "imagens/personagens/Tyrion Lannister.png",
    "familia": "Lannister",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Conselho",
+   "titulo": "Mão",
+   "vivo": true
  },
  {
    "nome": "Tytos Blackwood",
@@ -2989,47 +3005,47 @@ const personagens = [
    "familia": "Blackwood",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Tywin Lannister",
    "imagem": "imagens/personagens/Tywin Lannister.png",
    "familia": "Lannister",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Conselho",
+   "titulo": "Mão",
+   "vivo": true
  },
  {
    "nome": "Urswyck",
    "imagem": "imagens/personagens/Urswyck.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Utt",
    "imagem": "imagens/personagens/Utt.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Val",
    "imagem": "imagens/personagens/Val.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Varamyr",
    "imagem": "imagens/personagens/Varamyr.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Vargo Hoat",
@@ -3037,15 +3053,15 @@ const personagens = [
    "familia": "",
    "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Varys",
    "imagem": "imagens/personagens/Varys.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Conselho",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Vayon Poole",
@@ -3053,7 +3069,7 @@ const personagens = [
    "familia": "Poole",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Velha Ama",
@@ -3061,23 +3077,23 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Vento Cinzento",
    "imagem": "imagens/personagens/Vento Cinzento.png",
    "familia": "",
-   "grupo": "Lobo",
+   "grupo": "Lobos",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Verão",
-   "imagem": "imagens/personagens/Verão.png",
+   "imagem": "imagens/personagens/Verao.png",
    "familia": "",
-   "grupo": "Lobo",
+   "grupo": "Lobos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Victarion Greyjoy",
@@ -3085,31 +3101,31 @@ const personagens = [
    "familia": "Greyjoy",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Visenya",
    "imagem": "imagens/personagens/Visenya.png",
-   "familia": "",
+   "familia": "Targaryen",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Viserys",
    "imagem": "imagens/personagens/Viserys.png",
-   "familia": "",
+   "familia": "Targaryen",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Vyman",
    "imagem": "imagens/personagens/Vyman.png",
    "familia": "",
-   "grupo": "",
+   "grupo": "Meistre",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Walda Frey",
@@ -3117,7 +3133,7 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Walder Frey",
@@ -3125,7 +3141,7 @@ const personagens = [
    "familia": "Frey",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Walton (Perna de aço)",
@@ -3133,15 +3149,15 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Waymar Royce",
    "imagem": "imagens/personagens/Waymar Royce.png",
    "familia": "Royce",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
  },
  {
    "nome": "Weese",
@@ -3149,7 +3165,7 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Wendel Manderly",
@@ -3157,23 +3173,31 @@ const personagens = [
    "familia": "Manderly",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Wex Pyke",
    "imagem": "imagens/personagens/Wex Pyke.png",
-   "familia": "Pyke",
+   "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Will",
    "imagem": "imagens/personagens/Will.png",
    "familia": "",
    "grupo": "Patrulha da Noite",
+   "titulo": "Patrulheiro",
+   "vivo": false
+ },
+ {
+   "nome": "Willam Dustin",
+   "imagem": "imagens/personagens/Willam Dustin.png",
+   "familia": "Dustin",
+   "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Willan Darry",
@@ -3181,15 +3205,7 @@ const personagens = [
    "familia": "Darry",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
- },
- {
-   "nome": "Willan Dustin",
-   "imagem": "imagens/personagens/Willan Dustin.png",
-   "familia": "Dustin",
-   "grupo": "",
-   "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Willas Tyrell",
@@ -3197,7 +3213,7 @@ const personagens = [
    "familia": "Tyrell",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Willen Lannister",
@@ -3205,7 +3221,7 @@ const personagens = [
    "familia": "Lannister",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Wylis Manderly",
@@ -3213,7 +3229,7 @@ const personagens = [
    "familia": "Manderly",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Wyman Manderly",
@@ -3221,7 +3237,7 @@ const personagens = [
    "familia": "Manderly",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Xaro Xhoan Daxos",
@@ -3229,15 +3245,15 @@ const personagens = [
    "familia": "",
    "grupo": "",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Ygritte",
    "imagem": "imagens/personagens/Ygritte.png",
    "familia": "",
-   "grupo": "Selvagem",
+   "grupo": "Selvagens",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  },
  {
    "nome": "Yoren",
@@ -3245,15 +3261,15 @@ const personagens = [
    "familia": "",
    "grupo": "Patrulha da Noite",
    "titulo": "",
-   "vivo": ""
+   "vivo": false
  },
  {
    "nome": "Zollo",
    "imagem": "imagens/personagens/Zollo.png",
    "familia": "",
-   "grupo": "Dothraki",
+   "grupo": "Saltimbancos Sangrentos",
    "titulo": "",
-   "vivo": ""
+   "vivo": true
  }
 ]
 
