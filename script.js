@@ -895,6 +895,14 @@ const personagens = [
    "titulo": "",
    "vivo": true
  },
+  {
+    "nome": "Eggon",
+    "imagem": "imagens/personagens/Eggon.png",
+    "familia": "",
+    "grupo": "Homens da montanha",
+    "titulo": "",
+    "vivo": true
+  },
  {
    "nome": "Elenya Westerling",
    "imagem": "imagens/personagens/Elenya Westerling.png",
@@ -1584,6 +1592,14 @@ const personagens = [
    "vivo": true
  },
  {
+   "nome": "Joss Stilwood",
+   "imagem": "imagens/personagens/Joss Stilwood.png",
+   "familia": "",
+   "grupo": "Homens da montanha",
+   "titulo": "",
+   "vivo": true
+ },
+ {
    "nome": "Karl Pé-Torto",
    "imagem": "imagens/personagens/Karl Pe-Torto.png",
    "familia": "",
@@ -1807,14 +1823,14 @@ const personagens = [
    "titulo": "",
    "vivo": false
  },
-/* {
-   "nome": "Maos Frias",
-   "imagem": "imagens/personagens/Maos frias.png",
+ {
+   "nome": "Mãos Frias",
+   "imagem": "imagens/personagens/Maos Frias.png",
    "familia": "",
    "grupo": "Outros",
    "titulo": "",
    "vivo": false
- }, */
+ },
  {
    "nome": "Margaery Tyrell",
    "imagem": "imagens/personagens/Margaery Tyrell.png",
