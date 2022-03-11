@@ -1631,6 +1631,22 @@ const personagens = [
    "titulo": "",
    "vivo": true
  },
+  {
+   "nome": "Kraznys Mo Nakloz",
+   "imagem": "imagens/personagens/Kraznys Mo Nakloz.png",
+   "familia": "",
+   "grupo": "",
+   "titulo": "",
+   "vivo": true
+ },
+  {
+   "nome": "Mirri Maz Duur",
+   "imagem": "imagens/personagens/Mirri Maz Duur.png",
+   "familia": "",
+   "grupo": "",
+   "titulo": "",
+   "vivo": false
+ },
  {
    "nome": "Lady",
    "imagem": "imagens/personagens/Lady.png",
@@ -1982,6 +1998,14 @@ const personagens = [
    "grupo": "",
    "titulo": "",
    "vivo": false
+ },
+ {
+  "nome": "Missandei",
+   "imagem": "imagens/personagens/Missandei.png",
+   "familia": "",
+   "grupo": "",
+   "titulo": "",
+   "vivo": true
  },
  {
    "nome": "Monford Velaryon",
