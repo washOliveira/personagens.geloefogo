@@ -312,6 +312,14 @@ const personagens = [
    "vivo": false
  },
  {
+   "nome": "Barba Verde",
+   "imagem": "imagens/personagens/Barba Verde.png",
+   "familia": "",
+   "grupo": "Irmandade sem bandeiras",
+   "titulo": "",
+   "vivo": false
+ },
+ {
    "nome": "Barristan Selmy",
    "imagem": "imagens/personagens/Barristan.png",
    "familia": "Selmy",
@@ -444,6 +452,14 @@ const personagens = [
    "imagem": "imagens/personagens/Brynden Tully.png",
    "familia": "Tully",
    "grupo": "",
+   "titulo": "",
+   "vivo": true
+ },
+ {
+   "nome": "Caçador Louco",
+   "imagem": "imagens/personagens/Caçador Louco.png",
+   "familia": "",
+   "grupo": "Irmandade sem bandeiras",
    "titulo": "",
    "vivo": true
  },
@@ -2824,6 +2840,14 @@ const personagens = [
    "vivo": true
  },
  {
+   "nome": "Symon (Língua de Prata)",
+   "imagem": "imagens/personagens/Symon (Língua de Prata).png",
+   "familia": "",
+   "grupo": "",
+   "titulo": "",
+   "vivo": true
+ },
+ {
    "nome": "Syrio Forel",
    "imagem": "imagens/personagens/Syrio Forel.png",
    "familia": "",
@@ -3039,6 +3063,14 @@ const personagens = [
    "titulo": "Mão",
    "vivo": true
  },
+  {
+    "nome": "Tysha",
+    "imagem": "imagens/personagens/Tysha.png",
+    "familia": "",
+    "grupo": "",
+    "titulo": "",
+    "vivo": true
+  },
  {
    "nome": "Tytos Blackwood",
    "imagem": "imagens/personagens/Tytos Blackwood.png",
